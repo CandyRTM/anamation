@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #b72a67;
+}
+.navigation {
+    padding: 20px;
+    width: 20vw;;
+    height: 100vh;
+    background-color: #8d2050;
+    display: flex;
+    justify-content: flex-start;
+}
+.hamburger {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition-delay: 10s;
+}
+.bar {
+    height: 5px;
+    width: 50px;
+    background-color: white;
+    margin: 10px auto;
+    box-shadow:0px 5px 50px  5px gray;
+
+}
+.hamburger:hover .top {
+    margin-left: 25px;
+    width: 35px;
+    transform: translateY(5px) translateX(-3px) rotateZ(35deg)
+}
+.hamburger:hover .middle {
+    width: 50px;
+}
+.hamburger:hover .bottom {
+    margin-left: 25px;
+    width: 35px;
+    transform: translateY(-3px) translateX(-3px) rotateZ(-35deg)
+}
+.hamburger1 {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition-delay: 10s;
+}
+.bar2 {
+    height: 5px;
+    width: 50px;
+    background-color: white;
+    margin: 10px auto;
+    box-shadow:0px 5px 50px  5px gray;
+
+}
+.hamburger2:hover .top {
+    margin-left: 25px;
+    width: 35px;
+    transform: translateY(6px) translateX(-23px) rotateZ(-35deg)
+}
+.hamburger2:hover .middle {
+    width: 50px;
+}
+.hamburger2:hover .bottom {
+    margin-left: 25px;
+    width: 35px;
+    transform: translateY(-6px) translateX(-23px) rotateZ(35deg)
+}
+.hamburger3 {
+
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition-delay: 10s;
+}
+.bar3 {
+    height: 5px;
+    width: 50px;
+    background-color: white;
+    margin: 10px auto;
+    box-shadow:0px 5px 50px  5px gray;
+
+}
+.hamburger3:hover .top {
+    transform: translateY(15px) rotateZ(45deg)
+}
+.hamburger3:hover .middle {
+    width: 0px;
+
+}
+.hamburger3:hover .bottom {
+    transform: translateY(-15px) rotateZ(-45deg)
+}
+.hamburger4 {
+
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    animation-duration: 5s;
+}
+.bar4 {
+    height: 5px;
+    width: 50px;
+    background-color: white;
+    margin: 10px auto;
+    box-shadow:0px 5px 50px  5px gray;
+
+}
+.hamburger4 .top {
+    transition-duration: 0.5s;
+}
+.hamburger4 .bottom {
+    transition-duration: 0.5s;
+}
+.hamburger3 .top {
+    transition-duration: 0.5s;
+}
+.hamburger3 .bottom {
+    transition-duration: 0.5s;
+}
+.hamburger2 .bottom {
+    transition-duration: 0.5s;
+}
+.hamburger2 .bottom {
+    transition-duration: 0.5s;
+}
+.hamburger .bottom {
+    transition-duration: 0.5s;
+}
+.hamburger .top {
+    transition-duration: 0.5s;
+}
+.hamburger4:hover .top {
+    transform: translateY(15px);
+
+}
+.hamburger4:hover .middle {
+    width: 50px;
+
+}
+.hamburger4:hover .bottom {
+    transform: translateY(-15px);
+}
